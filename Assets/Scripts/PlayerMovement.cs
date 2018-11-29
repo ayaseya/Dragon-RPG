@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.G)) // G for gamepad. TODO allow player to map later or add
         {
             isInDirectMode = !isInDirectMode; // toggle mode
-
+            currentClickTarget = transform.position;
         }
 
         if (isInDirectMode)
