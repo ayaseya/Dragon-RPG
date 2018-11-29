@@ -11,8 +11,7 @@ public class PlayerMovement : MonoBehaviour
     CameraRaycaster cameraRaycaster;
     Vector3 currentClickTarget;
 
-    bool isInDirectMode = false; // TODO consider making static later
-
+    bool isInDirectMode = false;
 
     private void Start()
     {

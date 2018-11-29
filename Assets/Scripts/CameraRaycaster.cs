@@ -23,7 +23,7 @@ public class CameraRaycaster : MonoBehaviour
         get { return m_layerHit; }
     }
 
-    void Start() // TODO Awake?
+    void Start()
     {
         // MainCameraタグのカメラを取得
         viewCamera = Camera.main;
